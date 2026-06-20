@@ -1,0 +1,54 @@
+#Terminal GUI
+cursor-style = block
+selection-background = D4CDD5
+selection-foreground = 73787E
+bold-is-bright = true
+mouse-hide-while-typing
+cursor-color = 928374
+cursor-style-blink = true
+foreground = 68727C
+background = 292B2E
+window-vsync = true
+window-padding-x = 20, 20
+window-padding-y = 20, 0
+window-padding-balance = true
+macos-icon = paper
+split-divider-color = 000000
+macos-window-shadow = false
+macos-titlebar-style = "hidden"
+clipboard-trim-trailing-spaces = true
+shell-integration = detect
+quick-terminal-animation-duration = 0
+quick-terminal-size = 30%
+quick-terminal-screen = main
+
+#Terminal Font
+font-size = 18
+adjust-cell-width = 0
+font-family = "TX-02 Medium SemiCondensed"  
+font-thicken = true
+
+#Key Bindings
+keybind = ctrl+s>v=new_split:right
+keybind = ctrl+s>s=new_split:down
+keybind = ctrl+s>l=goto_split:right
+keybind = ctrl+s>h=goto_split:left
+keybind = ctrl+s>j=goto_split:down
+keybind = ctrl+s>k=goto_split:up
+keybind = ctrl+s>x=close_surface
+keybind = ctrl+s>r=reload_config
+keybind = ctrl+s>n=new_window
+keybind = ctrl+s>f=toggle_fullscreen
+keybind = global:cmd+t=toggle_quick_terminal
+
+#configuration ghostty
+term = xterm
+auto-update = download
+auto-update-channel = stable
+keybind = shift+enter=text:\x1b\r
+macos-option-as-alt = true
+
+#features
+desktop-notifications = true
+macos-shortcuts = allow
+window-vsync = true
