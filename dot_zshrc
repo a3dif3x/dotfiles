@@ -10,6 +10,12 @@ alias reframe="yabai --restart-service"
 alias cuda_machine="ssh 192.168.40.28"
 alias reconfigure="source ~/.zshrc"
 
+#funcions
+xbs() {
+  [ -z "$1" ] && { echo "usage: xbs <name>"; return 1; }
+  xcode-build-server config -project "$1.xcodeproj" -scheme "$1"
+}
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # bun completions
