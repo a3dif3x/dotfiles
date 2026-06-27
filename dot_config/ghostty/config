@@ -6,8 +6,8 @@ bold-is-bright = true
 mouse-hide-while-typing
 cursor-color = 928374
 cursor-style-blink = true
-foreground = 68727C
-background = 292B2E
+foreground = 73787E
+background = E1E1DE
 window-vsync = true
 window-padding-x = 20, 20
 window-padding-y = 20, 0

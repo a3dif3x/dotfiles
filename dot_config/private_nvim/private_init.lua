@@ -18,14 +18,14 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("lazy").setup("plugins")
 
-vim.o.background = "dark"
+vim.o.background = "light"
 
 vim.opt.showcmd = true
 vim.opt.cmdheight = 0
 vim.opt.fillchars = { eob = " " }
 vim.loader.enable()
 vim.cmd("hi LineNrAbove guifg=grey")
-vim.api.nvim_set_hl(0, "LineNr", { fg = "yellow", bold = true })
+vim.api.nvim_set_hl(0, "LineNr", { fg = "black", bold = true })
 vim.cmd("hi LineNrBelow guifg=grey")
 vim.cmd("hi SignColumn guibg=none")
 vim.cmd("highlight clear SignColumn")

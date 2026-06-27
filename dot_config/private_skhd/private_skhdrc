@@ -78,6 +78,6 @@ alt - p : yabai -m window --focus stack.prev
 
 alt - e : emacsclient -c -e  "(select-frame-set-input-focus (selected-frame))" &
 alt - b : open -a "Safari" -n
-alt - return : open -a "iTerm-2" -n
+alt - return : open -a "Ghostty.app" -n
 cmd + shift - o : open -a "/Applications/Ghostty.app"
-cmd + shift - a : open -a "/Applications/Arc.app"
+cmd + shift - a : open -a "/Applications/Safari.app"

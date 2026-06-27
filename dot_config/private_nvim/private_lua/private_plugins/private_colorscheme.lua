@@ -1,9 +1,9 @@
-return {
-	"colepeters/spacemacs-theme.vim",
-	config = function()
-		vim.cmd("colorscheme spacemacs-theme")
-	end,
-}
+-- return {
+-- 	"colepeters/spacemacs-theme.vim",
+-- 	config = function()
+-- 		vim.cmd("colorscheme spacemacs-theme")
+-- 	end,
+-- }
 -- return {
 -- 	"wnkz/monoglow.nvim",
 -- 	lazy = false,
@@ -33,12 +33,12 @@ return {
 -- 	end,
 -- }
 
--- return {
--- 	"thesimonho/kanagawa-paper.nvim",
--- 	lazy = false,
--- 	priority = 1000,
--- 	opts = {},
--- 	config = function()
--- 		vim.cmd.colorscheme("kanagawa-paper-canvas")
--- 	end,
--- }
+return {
+	"thesimonho/kanagawa-paper.nvim",
+	lazy = false,
+	priority = 1000,
+	opts = {},
+	config = function()
+		vim.cmd.colorscheme("kanagawa-paper-canvas")
+	end,
+}
